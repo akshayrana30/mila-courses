@@ -105,7 +105,7 @@ class SVM:
 				print("Train loss: %f" % train_loss)
 				print("Test accuracy: %f" % test_accuracy)
 				print("Test loss: %f" % test_loss)
-				print("")
+				print("h")
 
 		return train_loss, train_accuracy, test_loss, test_accuracy
 
