@@ -8,9 +8,9 @@ class NN(object):
                  datapath='cifar10.pkl',
                  n_classes=10,
                  epsilon=1e-6,
-                 lr=0.003,
-                 batch_size=100,
-                 seed=0,
+                 lr=7e-4,
+                 batch_size=1000,
+                 seed=None,
                  activation="relu",
                  init_method="glorot"
                  ):
@@ -179,6 +179,10 @@ class NN(object):
         test_loss, test_accuracy, _ = self.compute_loss_and_accuracy(X_test, y_test)
         return test_loss, test_accuracy
 
-if __name__ == "__main__":
-    nn = NN()
-    nn.train_loop
+# if __name__ == "__main__":
+#     nn = NN()
+#     X_train = np.ones((7,4))
+#     dims = [X_train.shape[1], 10]
+#     nn.initialize_weights(dims)
+#     cache = nn.forward(X_train)
+#     nn.backward(cache, np.array([1]*7))
