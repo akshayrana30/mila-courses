@@ -1,1 +1,1 @@
-# mila-courses
+# Data Science
