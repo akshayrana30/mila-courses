@@ -11,3 +11,4 @@
 
 ## Fall 2020
 #### IFT6268 - Self-Supervised Learning
+#### IFT6390 - Teaching Assistant - Data Science 2020
