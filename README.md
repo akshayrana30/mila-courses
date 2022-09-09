@@ -2,7 +2,7 @@
 
 ## Fall 2019
 #### IFT6390 - Foundations of Machine Learning
-#### IFT6390 - Data Science
+#### IFT6758 - Data Science
 
 ## Winter 2020
 #### IFT6135 - Representation Learning:Deep Learning
